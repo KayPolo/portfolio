@@ -28,8 +28,11 @@ INDEX
   width: 100%;
 }
 
+
+
 .top{
   width: 100%;
+  max-width: 1500px;
    margin-left: 0;
 }
 
@@ -142,52 +145,10 @@ INDEX
 }
 
 
-.changing-text:before{
+.changing-text{
     background-color: gold;
-    content: 'a NYC based';
-    -webkit-animation: description 10s infinite; /* Safari 4+ */
-    -moz-animation: description 10s infinite; /* Fx 5+ */
-    -o-animation: description 10s infinite; /* Opera 12+ */
-    animation: description 10s infinite; /* IE 10+, Fx 29+ */
   
 
-}
-
-@-webkit-keyframes description {
-  0% {content: "a NYC based"}
-    25% {content: "a critical thinker"}
-    50% {content: "a Cuban made"}
-    75% {content: "an extremly curious"}
-    100% {content: "a NYC based"}
-}
-@-moz-keyframes description {
-  0% {content: "a NYC based"}
-    25% {content: "a critical thinker"}
-    50% {content: "a Cuban made"}
-    75% {content: "an extremly curious"}
-    100% {content: "a NYC based"}
-}
-@-o-keyframes description {
-  0% {content: "a NYC based"}
-    25% {content: "a critical thinker"}
-    50% {content: "a Cuban made"}
-    75% {content: "an extremly curious"}
-    100% {content: "a NYC based"}
-}
-@keyframes description {
-  0% {content: "a NYC based"}
-    25% {content: "a critical thinker"}
-    50% {content: "a Cuban made"}
-    75% {content: "an extremly curious"}
-    100% {content: "a NYC based"}
-}
-
-@keyframes description {
-    0% {content: "a NYC based"}
-    25% {content: "a critical thinker"}
-    50% {content: "a Cuban made"}
-    75% {content: "an extremly curious"}
-    100% {content: "a NYC based"}
 }
 
 
@@ -229,7 +190,8 @@ INDEX
 
 .talking-points div img {
   order: -1;
-  width: 100%; 
+  width: 94%;
+  margin: 3%; 
 }
 
 
